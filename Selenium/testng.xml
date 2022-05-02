@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+    <test name="testngTest">
+        <parameter name="username" value="orange"/>
+        <parameter name="password" value="orangepassword123"/>
+        <classes>
+             <class name="liveProject.Activity" />
+            </classes>
+        </test>
+    </suite>
